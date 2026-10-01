@@ -9,15 +9,15 @@ L’objectif principal est de **[objectif du produit / problème résolu]**.
 
 ## Équipe
 - Julian Rodriguez - 2525584
-- Sara Toure -  2525988
+- Prénom Nom - Num Étudiant
 - Prénom Nom - Num Étudiant
 
 ---
 
 ## Produit cible
 Le produit final est destiné à :
-* Type d’utilisateur : [ex. joueur, client, entreprise]
-* Plateforme cible : [PC, Web, Mobile, VR, etc.]
+* Type d’utilisateur : Toute personne se trouvant à Montréal : résidents, résidents temporaires, touristes et visiteurs.
+* Plateforme cible : Web.
 ---
 
 ## Structure du dépôt
