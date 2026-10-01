@@ -1,5 +1,4 @@
-# Nom du projet
-
+# Turisty
 ## Présentation générale
 Ce projet consiste à développer **[description très courte du produit]**. 
 Garder la présentation courte et concise.
