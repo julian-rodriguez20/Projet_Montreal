@@ -11,7 +11,7 @@ Il définit :
 - les exigences fonctionnelles,
 - les exigences non fonctionnelles (performance, sécurité, facilité d’utilisation, etc.),
 - les contraintes (plateforme, outils, échéances),
-- les hypothèses et les dépendances.
+- les hypothèses et les dépendances. 
 
 La cahier des charges sert de **référence pour comprendre les exigences du système** et constitue la base des décisions de conception et de développement.
 Un modèle du cahier des charges existe dans la documentation [cahier des charges SRS](documentation/SRS.md).
@@ -30,7 +30,7 @@ Chaque ADR présente :
 
 Les entrées ADR assurent **la traçabilité, la cohérence et la clarté** tout au long de l’évolution de l’architecture du système.
 Un modèle du Registres des décisions d’architecture existe dans la documentation [Fiche de décision d’architecture ADR](documentation/ADR.md).
-
+ 
 ---
 
 ## Comment ces documents sont utilisés ensemble
