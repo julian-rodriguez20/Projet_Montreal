@@ -8,7 +8,7 @@ L’objectif principal est de **[objectif du produit / problème résolu]**.
 ---
 
 ## Équipe
-- Julian Rodriguez - 2525584
+- Julian Rodriguez Rico - 2525584
 - Sara Toure - 2525988
 - Prénom Nom - Num Étudiant
 
