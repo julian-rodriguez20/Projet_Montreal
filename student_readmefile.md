@@ -1,14 +1,13 @@
 # Turisty
 ## Présentation générale
-Ce projet consiste à développer **[description très courte du produit]**. 
-Garder la présentation courte et concise.
+Ce projet consiste à développer une application web permettant aux personnes à Montreal de découvrir des activités et de rencontrer d'autres personnes qui partagent leurs intérêts, afin de socialiser dans la vie réel.
 
-L’objectif principal est de **[objectif du produit / problème résolu]**.
+L’objectif principal est de faciliter la recherche d’amis pour les personnes introverties et de permettre aux personnes extraverties de les aider à socialiser.
 
 ---
 
 ## Équipe
-- Julian Rodriguez Rico - 2525584
+- Julian Rodriguez - 2525584
 - Sara Toure - 2525988
 - Prénom Nom - Num Étudiant
 
