@@ -79,24 +79,14 @@
 
 ---
 
-## 7. Données & règles métier (si applicable)
-- **Entités principales :** <User, Order, ...>
-- **Règles métier :** <validation, calculs, permissions, etc.>
+## 7. Le Product Backlog
+- **Epic 1** --> *User Story 1 et User Story 2*
+- **Epic 2** --> *User Story*
+- **Epic 3** --> *User Story*
 
 ---
 
-## 8. Hypothèses & dépendances
-### 8.1 Hypothèses
-- H-1 : <ex. utilisateurs ont un compte>
-- H-2 : <...>
-
-### 8.2 Dépendances
-- D-1 : <API externe / BD / service>
-- D-2 : <...>
-
----
-
-## 9. Critères d’acceptation globaux (Definition of Done – mini)
+## 8. Critères d’acceptation globaux (Definition of Done – mini)
 - [ ] Fonctionnalités livrées et testées
 - [ ] Tests unitaires présents
 - [ ] Gestion d’erreurs minimale
