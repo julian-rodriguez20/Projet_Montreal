@@ -9,7 +9,8 @@ L’objectif principal est de faciliter la recherche d’amis pour les personnes
 ## Équipe
 - Julian Rodriguez - 2525584
 - Sara Toure - 2525988
-- Prénom Nom - Num Étudiant
+- Maakni Massyl - Num Étudiant
+- Ribeiro Cavalcanti Matheus Henrique - Num Étudiant
 
 ---
 
@@ -19,18 +20,6 @@ Le produit final est destiné à :
 * Plateforme cible : Web.
 ---
 
-## Structure du dépôt
-- `/code` : contient l’ensemble du code source du projet
-    - Contient uniquement le code source
-    - Organisation libre (Web, Backend, etc.)
-    - Le code doit être compilable/exécutable selon le contexte du cours
-- `/documentation` : contient tous les documents de conception et de suivi
-    - Cahier des charges (cahier_des_charges.md)
-    - Registre des décisions architecturales (ADR.md)
-    - Rapport d’avancement (rapport_avancement.md ou .docx)
-    - Diagrammes UML, captures d’écran, tests, etc.
-    - Agile artefacts (Product Backlog, Sprint Backlog, UserBurndown Chart, etc)
-    - etc...
 
 
 ---

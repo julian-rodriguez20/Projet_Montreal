@@ -1,31 +1,57 @@
-# Cahier des charges (SRS léger) — <Nom du projet>
+# Cahier des charges (SRS léger) — <Turisty>
 **Équipe :** <Noms>  
-**Date :** <YYYY-MM-DD>  
-**Version :** <v0.1 / v1.0>
+**Date :** <2026-10-09>  
+**Version :** <v0.1 >
 
 ---
 
-## 1. Contexte & objectif
-- **Contexte :** <Pourquoi ce projet existe?>
-- **Objectif principal :** <Valeur attendue / problème résolu>
-- **Parties prenantes :** <utilisateurs, client, admin, etc.>
+---
+
+## 1. Contexte et objectif
+
+- **Contexte :** Les touristes, les nouveaux arrivants et les étudiants peuvent avoir de la difficulté à trouver des activités adaptées à leurs préférences et à leur budget à Montréal. Les informations sont souvent dispersées sur plusieurs plateformes. Il peut également être difficile de rencontrer des personnes avec qui participer à ces activités.
+
+- **Objectif principal :** MTL Complice vise à regrouper des activités, des restaurants et des hébergements afin d’aider les utilisateurs à organiser un séjour ou une sortie à Montréal selon leur budget, leurs intérêts et la durée choisie.
+
+- **Parties prenantes :** Les visiteurs, les membres inscrits, les organisateurs de sorties, les administrateurs de la plateforme et l’équipe responsable du projet.
 
 ---
 
 ## 2. Portée (Scope)
-### 2.1 Inclus (IN)
-- IN-1 : <fonction / cas d’usage inclus>
-- IN-2 : <...>
 
+### 2.1 Inclus (IN)
+
+- IN-1 : Consulter les activités, les restaurants et les hébergements.
+- IN-2 : Rechercher et filtrer les lieux selon le budget, la catégorie et les préférences.
+- IN-3 : Créer un compte et se connecter.
+- IN-4 : Créer un programme personnalisé pour une durée de un à trois jours.
+- IN-5 : Calculer le coût estimé du programme et le budget restant.
+- IN-6 : Sauvegarder et modifier un programme.
+- IN-7 : Créer une sortie liée à une activité.
+- IN-8 : Demander à participer à une sortie.
+- IN-9 : Signaler un contenu inapproprié.
+- IN-10 : Permettre à un administrateur de gérer les lieux, les utilisateurs et les signalements.
+- IN-11 : Crée un Chat de groupe pour les différentes sortie collectif
 ### 2.2 Exclu (OUT)
-- OUT-1 : <fonction explicitement hors scope>
-- OUT-2 : <...>
+
+- OUT-1 : Effectuer des réservations et des paiements directement dans l’application.
+- OUT-2 : Afficher les prix et les disponibilités en temps réel.
+- OUT-3 : Fournir une messagerie privée générale en dehors des sorties organisées.
+- OUT-4 : Développer une application mobile native.
+- OUT-5 : Fournir un service de transport ou de covoiturage comparable à Uber.
+- OUT-6 : Intégrer un assistant intelligent ou un chatbot dans la première version ( Sara:je sais pas trop mais je crois que pour la premiere version c'est trop de travail qu'est ce vous en dite?).
 
 ---
 
 ## 3. Acteurs / profils utilisateurs
-- **Acteur A :** <rôle, besoins, contraintes>
-- **Acteur B :** <...>
+
+- **Visiteur :** consulte les activités, les restaurants et les hébergements sans avoir obligatoirement un compte.
+
+- **Membre inscrit :** crée un compte, indique ses préférences, génère un programme, sauvegarde ses choix et demande à participer à une sortie.
+
+- **Organisateur :** crée une sortie, précise la date, l’heure et le nombre de places, puis accepte ou refuse les demandes de participation.
+
+- **Administrateur :** gère les utilisateurs, les lieux, les activités et les contenus signalés.
 
 ---
 
