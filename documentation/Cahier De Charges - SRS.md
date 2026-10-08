@@ -55,14 +55,14 @@
 
 ---
 
-## 4. Exigences fonctionnelles (FR)
+## 4. Exigences fonctionnelles (FR) (Julian)
 > Forme recommandée : “Le système doit…”
 - **FR-1 :** Le système doit <...>
 - **FR-2 :** Le système doit <...>
 
 ---
 
-## 5. Exigences non fonctionnelles (NFR)
+## 5. Exigences non fonctionnelles (NFR) (Julian)
 > Performance / sécurité / disponibilité / UX / maintenabilité…
 - **NFR-1 (Performance) :** <ex. temps de réponse < 2s>
 - **NFR-2 (Sécurité) :** <ex. authentification requise>
@@ -71,7 +71,7 @@
 
 ---
 
-## 6. Contraintes
+## 6. Contraintes (Julian)
 - **C-1 (Technologie) :** <langage / framework imposé>
 - **C-2 (Plateforme) :** <web / mobile / desktop>
 - **C-3 (Délai) :** <dates de phases>
@@ -79,15 +79,18 @@
 
 ---
 
-## 7. Le Product Backlog
+## 7. Le Product Backlog (Julian)
 - **Epic 1** --> *User Story 1 et User Story 2*
 - **Epic 2** --> *User Story*
+
 - **Epic 3** --> *User Story*
 
 ---
 
-## 8. Critères d’acceptation globaux (Definition of Done – mini)
+## 8. Critères d’acceptation globaux
 - [ ] Fonctionnalités livrées et testées
 - [ ] Tests unitaires présents
 - [ ] Gestion d’erreurs minimale
 - [ ] Documentation à jour (UML + ADR si requis)
+
+## 9. Definition of Done – mini
