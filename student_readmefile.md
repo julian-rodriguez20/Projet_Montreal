@@ -9,8 +9,8 @@ L’objectif principal est de faciliter la recherche d’amis pour les personnes
 ## Équipe
 - Julian Rodriguez - 2525584
 - Sara Toure - 2525988
-- Maakni Massyl - Num Étudiant
-- Ribeiro Cavalcanti Matheus Henrique - Num Étudiant
+- Maakni Massyl -
+- Ribeiro Cavalcanti Matheus Henrique - 
 
 ---
 
