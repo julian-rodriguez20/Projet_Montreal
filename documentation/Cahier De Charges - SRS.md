@@ -84,19 +84,19 @@
 ---
 
 ## 7. Le Product Backlog 
-- **Epic 1** --> Découvrir Montréal.
+- **Epic 1** --> Découvrir Montréal.  
  *US-01 - Consulter les lieux :* En tant que visiteur, je veux consulter les activités, les restaurants et les hébergements afin de découvrir les possibilités offertes à Montréal.  
  *US-02 - Rechercher et filtrer les lieux :* En tant que visiteur, je veux filtrer les lieux selon mon budget, mes préférences, la catégorie et la catégorie d’âge afin d’obtenir des propositions adaptées.  
  *US-03 - Consulter les détails d’un lieu :* En tant que visiteur, je veux consulter les détails d’un lieu afin de connaître sa description, son adresse, son prix estimé et sa catégorie d’âge recommandée.  
-
-- **Epic 2** --> Planifier selon son budget.
-* *US-04 - Indiquer ses besoins :* En tant que membre, je veux indiquer mon budget, mes intérêts, la durée de mon séjour, le nombre de personnes et la catégorie d’âge afin d’obtenir un programme adapté.
-* *US-05 - Générer un programme :* En tant que membre, je veux générer un programme personnalisé d’une durée de un à trois jours afin de mieux organiser mon séjour.
-
-- **Epic 3** --> Organiser et rejoindre des sorties.
-* *US-06 - Créer une sortie :* En tant que membre, je veux créer une sortie liée à une activité afin de proposer à d’autres utilisateurs de m’accompagner.
-* *US-07 - Demander à participer à une sortie :* En tant que membre, je veux demander à participer à une sortie afin de rencontrer d’autres personnes et de réaliser l’activité avec elles.
-*US-08 - Gérer les demandes de participation :* En tant qu’organisateur, je veux accepter ou refuser les demandes afin de gérer les participants à ma sortie.
+  
+- **Epic 2** --> Planifier selon son budget.  
+ *US-04 - Indiquer ses besoins :* En tant que membre, je veux indiquer mon budget, mes intérêts, la durée de mon séjour, le nombre de personnes et la catégorie d’âge afin d’obtenir un programme adapté.  
+ *US-05 - Générer un programme :* En tant que membre, je veux générer un programme personnalisé d’une durée de un à trois jours afin de mieux organiser mon séjour.  
+  
+- **Epic 3** --> Organiser et rejoindre des sorties.  
+ *US-06 - Créer une sortie :* En tant que membre, je veux créer une sortie liée à une activité afin de proposer à d’autres utilisateurs de m’accompagner.  
+ *US-07 - Demander à participer à une sortie :* En tant que membre, je veux demander à participer à une sortie afin de rencontrer d’autres personnes et de réaliser l’activité avec elles.  
+ *US-08 - Gérer les demandes de participation :* En tant qu’organisateur, je veux accepter ou refuser les demandes afin de gérer les participants à ma sortie.  
 
 ---
 
