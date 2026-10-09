@@ -57,33 +57,47 @@
 
 ## 4. Exigences fonctionnelles (FR) (Julian)
 > Forme recommandée : “Le système doit…”
-- **FR-1 :** Le système doit <...>
-- **FR-2 :** Le système doit <...>
+- **FR-1 :** Le système doit permettre aux visiteurs de consulter les activités, les restaurants et les hébergements à Montréal.
+- **FR-2 :** Le système doit permettre aux visiteurs de rechercher et de filtrer les lieux selon leur budget, leurs préférences, leur catégorie et la catégorie d’âge.
+- **FR-3 :** Le système doit afficher les détails d’un lieu, comme sa description, son adresse, son prix estimé et sa catégorie d’âge recommandée.
+- **FR-4 :** Le système doit permettre aux utilisateurs de créer un compte avec un mot de passe securisé et de se connecter.
+- **FR-5 :** Le système doit permettre aux membres de sauvegarder et de modifier leur programme.
+- **FR-6 :** Le système doit permettre aux membres de créer une sortie liée à une activité en précisant la date, l’heure et le nombre de places disponibles.
+- **FR-7 :** Le système doit permettre aux utilisateurs de signaler un contenu inapproprié.
 
 ---
 
 ## 5. Exigences non fonctionnelles (NFR) (Julian)
 > Performance / sécurité / disponibilité / UX / maintenabilité…
-- **NFR-1 (Performance) :** <ex. temps de réponse < 2s>
-- **NFR-2 (Sécurité) :** <ex. authentification requise>
-- **NFR-3 (UX) :** <ex. parcours en ≤ 3 clics>
-- **NFR-4 (Qualité) :** <ex. couverture minimale de tests>
+- **NFR-1 (Performance) :** Le système doit afficher les pages et les résultats de recherche dans un délai de 2 secondes.
+- **NFR-2 (Sécurité) :** Le système doit protéger les comptes des utilisateurs en utilisant des mots de passe sécurisés.
+- **NFR-3 (UX) :** Le système doit proposer une interface simple et facile à utiliser pour les administrateurs, les visiteurs et les membres.
+- **NFR-4 (Qualité) :** Le système doit fonctionner sur les navigateurs web courants, comme Google Chrome, Microsoft Edge et Firefox.
 
 ---
 
 ## 6. Contraintes (Julian)
-- **C-1 (Technologie) :** <langage / framework imposé>
-- **C-2 (Plateforme) :** <web / mobile / desktop>
-- **C-3 (Délai) :** <dates de phases>
-- **C-4 (Outils) :** <Git, CI, etc.>
+- **C-1 (Technologie) :** Le projet doit utiliser le langage de programation 'Python'
+- **C-2 (Plateforme) :** Le projet doit être développé en forme d’une application web qui est accessible depuis un navigateur.
+- **C-3 (Délai) :** Le projet doit être terminé avant la séance 30.
+- **C-4 (Outils) :** L’équipe doit utiliser GitHub et Python comme langage de programmation principal.
 
 ---
 
 ## 7. Le Product Backlog (Julian)
-- **Epic 1** --> *User Story 1 et User Story 2*
-- **Epic 2** --> *User Story*
+- **Epic 1** --> Découvrir Montréal.
+*US-01 - Consulter les lieux :* En tant que visiteur, je veux consulter les activités, les restaurants et les hébergements afin de découvrir les possibilités offertes à Montréal.
+*US-02 - Rechercher et filtrer les lieux :* En tant que visiteur, je veux filtrer les lieux selon mon budget, mes préférences, la catégorie et la catégorie d’âge afin d’obtenir des propositions adaptées.
+*US-03 - Consulter les détails d’un lieu :* En tant que visiteur, je veux consulter les détails d’un lieu afin de connaître sa description, son adresse, son prix estimé et sa catégorie d’âge recommandée.
 
-- **Epic 3** --> *User Story*
+- **Epic 2** --> Planifier selon son budget.
+*US-04 - Indiquer ses besoins :* En tant que membre, je veux indiquer mon budget, mes intérêts, la durée de mon séjour, le nombre de personnes et la catégorie d’âge afin d’obtenir un programme adapté.
+*US-05 - Générer un programme :* En tant que membre, je veux générer un programme personnalisé d’une durée de un à trois jours afin de mieux organiser mon séjour.
+
+- **Epic 3** --> Organiser et rejoindre des sorties.
+*US-06 - Créer une sortie :* En tant que membre, je veux créer une sortie liée à une activité afin de proposer à d’autres utilisateurs de m’accompagner.
+*US-07 - Demander à participer à une sortie :* En tant que membre, je veux demander à participer à une sortie afin de rencontrer d’autres personnes et de réaliser l’activité avec elles.
+*US-08 - Gérer les demandes de participation :* En tant qu’organisateur, je veux accepter ou refuser les demandes afin de gérer les participants à ma sortie.
 
 ---
 
