@@ -39,7 +39,7 @@
 - OUT-3 : Fournir une messagerie privée générale en dehors des sorties organisées.
 - OUT-4 : Développer une application mobile native.
 - OUT-5 : Fournir un service de transport ou de covoiturage comparable à Uber.
-- OUT-6 : Intégrer un assistant intelligent ou un chatbot dans la première version ( Sara:je sais pas trop mais je crois que pour la premiere version c'est trop de travail qu'est ce vous en dite?).
+- OUT-6 : Intégrer un assistant intelligent ou un chatbot dans la première version
 
 ---
 
