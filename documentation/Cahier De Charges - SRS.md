@@ -55,8 +55,7 @@
 
 ---
 
-## 4. Exigences fonctionnelles (FR) (Julian)
-> Forme recommandée : “Le système doit…”
+## 4. Exigences fonctionnelles (FR) 
 - **FR-1 :** Le système doit permettre aux visiteurs de consulter les activités, les restaurants et les hébergements à Montréal.
 - **FR-2 :** Le système doit permettre aux visiteurs de rechercher et de filtrer les lieux selon leur budget, leurs préférences, leur catégorie et la catégorie d’âge.
 - **FR-3 :** Le système doit afficher les détails d’un lieu, comme sa description, son adresse, son prix estimé et sa catégorie d’âge recommandée.
@@ -67,7 +66,7 @@
 
 ---
 
-## 5. Exigences non fonctionnelles (NFR) (Julian)
+## 5. Exigences non fonctionnelles (NFR) 
 > Performance / sécurité / disponibilité / UX / maintenabilité…
 - **NFR-1 (Performance) :** Le système doit afficher les pages et les résultats de recherche dans un délai de 2 secondes.
 - **NFR-2 (Sécurité) :** Le système doit protéger les comptes des utilisateurs en utilisant des mots de passe sécurisés.
@@ -76,7 +75,7 @@
 
 ---
 
-## 6. Contraintes (Julian)
+## 6. Contraintes 
 - **C-1 (Technologie) :** Le projet doit utiliser le langage de programation 'Python'
 - **C-2 (Plateforme) :** Le projet doit être développé en forme d’une application web qui est accessible depuis un navigateur.
 - **C-3 (Délai) :** Le projet doit être terminé avant la séance 30.
@@ -84,7 +83,7 @@
 
 ---
 
-## 7. Le Product Backlog (Julian)
+## 7. Le Product Backlog 
 - **Epic 1** --> Découvrir Montréal.
 *US-01 - Consulter les lieux :* En tant que visiteur, je veux consulter les activités, les restaurants et les hébergements afin de découvrir les possibilités offertes à Montréal.
 *US-02 - Rechercher et filtrer les lieux :* En tant que visiteur, je veux filtrer les lieux selon mon budget, mes préférences, la catégorie et la catégorie d’âge afin d’obtenir des propositions adaptées.
