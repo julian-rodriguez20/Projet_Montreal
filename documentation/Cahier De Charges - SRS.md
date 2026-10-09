@@ -101,9 +101,14 @@
 ---
 
 ## 8. Critères d’acceptation globaux
-- [ ] Fonctionnalités livrées et testées
-- [ ] Tests unitaires présents
-- [ ] Gestion d’erreurs minimale
-- [ ] Documentation à jour (UML + ADR si requis)
+- [] Toutes les fonctionnalités prévues sont développées et testées.
+- [] Des tests unitaires sont présents pour vérifier le fonctionnement des fonctions principales.
+- [] Les erreurs courantes sont gérées correctement afin d’éviter les problèmes pendant l’utilisation.
+- [] La documentation du projet est à jour.
 
 ## 9. Definition of Done – mini
+Une fonctionnalité est considérée comme terminée lorsque :  
+- Elle est développée et fonctionne correctement.
+- Elle a été testée et les erreurs importantes ont été corrigées.
+- Elle respecte les exigences définies dans le cahier des charges.
+- La documentation est mise à jour si nécessaire.
