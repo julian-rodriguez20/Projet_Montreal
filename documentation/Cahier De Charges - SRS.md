@@ -85,9 +85,9 @@
 
 ## 7. Le Product Backlog 
 - **Epic 1** --> Découvrir Montréal.
-* *US-01 - Consulter les lieux :* En tant que visiteur, je veux consulter les activités, les restaurants et les hébergements afin de découvrir les possibilités offertes à Montréal.
-* *US-02 - Rechercher et filtrer les lieux :* En tant que visiteur, je veux filtrer les lieux selon mon budget, mes préférences, la catégorie et la catégorie d’âge afin d’obtenir des propositions adaptées.
-* *US-03 - Consulter les détails d’un lieu :* En tant que visiteur, je veux consulter les détails d’un lieu afin de connaître sa description, son adresse, son prix estimé et sa catégorie d’âge recommandée.
+ *US-01 - Consulter les lieux :* En tant que visiteur, je veux consulter les activités, les restaurants et les hébergements afin de découvrir les possibilités offertes à Montréal.  
+ *US-02 - Rechercher et filtrer les lieux :* En tant que visiteur, je veux filtrer les lieux selon mon budget, mes préférences, la catégorie et la catégorie d’âge afin d’obtenir des propositions adaptées.  
+ *US-03 - Consulter les détails d’un lieu :* En tant que visiteur, je veux consulter les détails d’un lieu afin de connaître sa description, son adresse, son prix estimé et sa catégorie d’âge recommandée.  
 
 - **Epic 2** --> Planifier selon son budget.
 * *US-04 - Indiquer ses besoins :* En tant que membre, je veux indiquer mon budget, mes intérêts, la durée de mon séjour, le nombre de personnes et la catégorie d’âge afin d’obtenir un programme adapté.
