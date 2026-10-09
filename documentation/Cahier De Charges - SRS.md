@@ -101,10 +101,10 @@
 ---
 
 ## 8. Critères d’acceptation globaux
-- [] Toutes les fonctionnalités prévues sont développées et testées.
-- [] Des tests unitaires sont présents pour vérifier le fonctionnement des fonctions principales.
-- [] Les erreurs courantes sont gérées correctement afin d’éviter les problèmes pendant l’utilisation.
-- [] La documentation du projet est à jour.
+- [ ] Toutes les fonctionnalités prévues sont développées et testées.
+- [ ] Des tests unitaires sont présents pour vérifier le fonctionnement des fonctions principales.
+- [ ] Les erreurs courantes sont gérées correctement afin d’éviter les problèmes pendant l’utilisation.
+- [ ] La documentation du projet est à jour.
 
 ## 9. Definition of Done – mini
 Une fonctionnalité est considérée comme terminée lorsque :  
