@@ -1,7 +1,7 @@
 # Cahier des charges (SRS léger) — <Turisty>
 **Équipe :** Avengers  
-**Date :** <2026-10-09>  
-**Version :** <v0.1 >
+**Date :** 2026-10-09 
+**Version :** v0.1
 
 ---
 
