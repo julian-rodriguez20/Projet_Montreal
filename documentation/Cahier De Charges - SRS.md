@@ -1,4 +1,4 @@
-# Cahier des charges (SRS léger) — <Turisty>
+# Cahier des charges (SRS léger) — Turisty
 **Équipe :** The Avengers  
 **Date :** 2026-11-11 
 **Version :** v0.2
@@ -47,9 +47,9 @@
 
 - **Visiteur :** consulte les activités, les restaurants et les hébergements sans avoir obligatoirement un compte.
 
-- **Membre inscrit :** crée un compte, indique ses préférences, génère un programme, sauvegarde ses choix, créer et demander à participer dans une sortie.
+- **Membre inscrit :** crée un compte, indique ses préférences, génère un programme, sauvegarde ses choix, crée une sortie et demande à participer à une sortie.
 
-- **Organisateur :** crée une sortie, précise la date, l’heure et le nombre de places, puis accepte ou refuse les demandes de participation.
+- **Organisateur :** crée une sortie, précise la date, l'heure et le nombre de places, puis accepte ou refuse les demandes de participation.
 
 - **Administrateur :** gère les utilisateurs, les lieux, les activités et les contenus signalés.
 
@@ -57,8 +57,8 @@
 
 ## 4. Exigences fonctionnelles (FR) 
 - **FR-1 :** Le système doit permettre aux visiteurs de consulter les activités, les restaurants et les hébergements à Montréal.
-- **FR-2 :** Le système doit permettre aux visiteurs de rechercher et de filtrer les lieux selon leur budget, leurs préférences, leur catégorie et la catégorie d’âge.
-- **FR-3 :** Le système doit afficher les détails d’un lieu, comme sa description, son adresse, son prix estimé et sa catégorie d’âge recommandée.
+- **FR-2 :** Le système doit permettre aux visiteurs de rechercher et de filtrer les lieux selon leur budget, leurs préférences, leur catégorie et la tranche d’âge.
+- **FR-3 :** Le système doit afficher les détails d’un lieu, comme sa description, son adresse, son prix estimé et sa tranche d’âge recommandée.
 - **FR-4 :** Le système doit permettre aux utilisateurs de créer un compte avec un mot de passe securisé et de se connecter.
 - **FR-5 :** Le système doit permettre aux membres de sauvegarder et de modifier leur programme.
 - **FR-6 :** Le système doit permettre aux membres de créer une sortie liée à une activité en précisant la date, l’heure et le nombre de places disponibles.
@@ -84,7 +84,12 @@
 - **C-1 (Technologie) :** Le projet doit utiliser le langage de programation 'Python'
 - **C-2 (Plateforme) :** Le projet doit être développé en forme d’une application web qui est accessible depuis un navigateur.
 - **C-3 (Délai) :** Le projet doit être terminé avant la séance 30.
-- **C-4 (Outils) :** L’équipe doit utiliser GitHub et Python comme langage de programmation principal.
+- **C-4 (Outils) :** L'équipe utilise GitHub pour le suivi de la documentation.
+
+### Hypothèses
+- Un catalogue de lieux fictifs contient, pour chaque lieu, un prix estimé, son unité (par personne, par groupe ou par nuit) et une tranche d'âge recommandée. La tranche d'âge est un conseil, pas une interdiction.
+- Une sortie est ouverte tant que sa date et son heure ne sont pas passées. Sa capacité exclut l'organisateur.
+- Seules les demandes acceptées comptent dans la capacité d'une sortie.
 
 ---
 
@@ -107,25 +112,25 @@
 
 ## 8. Critères d’acceptation globaux
 - US-02 — Rechercher et filtrer
-[] Étant donné des lieux fictifs de catégories et de prix différents, quand le visiteur choisit « activité », une tranche d’âge et un budget maximal, alors tous les résultats respectent tous les filtres actifs.
-[] Si aucun lieu ne correspond, Turisty affiche un message de résultat vide clair.
-[] Si le budget saisi est négatif, Turisty demande de le corriger.
+[ ] Étant donné des lieux fictifs de catégories et de prix différents, quand le visiteur choisit « activité », une tranche d’âge et un budget maximal, alors tous les résultats respectent tous les filtres actifs.
+[ ] Si aucun lieu ne correspond, Turisty affiche un message de résultat vide clair.
+[ ] Si le budget saisi est négatif, Turisty demande de le corriger.
 
 - US-05 — Générer un programme
-[] Étant donné une durée de 1 à 3 jours et assez de lieux compatibles, le membre obtient un programme pour la durée demandée, avec le coût total estimé et le budget restant.
-[] Une durée hors de 1 à 3 jours est refusée.
-[] Si aucun programme ne respecte le budget, Turisty l’indique au lieu de proposer un programme qui le dépasse.
+[ ] Étant donné une durée de 1 à 3 jours et assez de lieux compatibles, le membre obtient un programme pour la durée demandée, avec le coût total estimé et le budget restant.
+[ ] Une durée hors de 1 à 3 jours est refusée.
+[ ] Si aucun programme ne respecte le budget, Turisty l’indique au lieu de proposer un programme qui le dépasse.
 
 - US-07 — Demander à participer
-[] Étant donné qu'un membre est connecté, s'il y a une sortie ouverte avec une place disponible et aucune demande existante de ce membre pour cette sortie, quand il fait sa demande, alors Turisty enregistre une seule demande avec le statut « En attente ».
-[] Si la sortie est complète ou si une demande existe déjà, l’envoi est bloqué et le motif est affiché.
-[] Une demande « En attente » ne réserve pas de place.
+[ ] Étant donné qu'un membre est connecté, s'il y a une sortie ouverte avec une place disponible et aucune demande existante de ce membre pour cette sortie, quand il fait sa demande, alors Turisty enregistre une seule demande avec le statut « En attente ».
+[ ] Si la sortie est complète ou si une demande existe déjà, l’envoi est bloqué et le motif est affiché.
+[ ] Une demande « En attente » ne réserve pas de place.
 
 - US-08 — Traiter une demande
 
-[] L’organisateur peut accepter ou refuser une demande « En attente » de sa propre sortie. Le membre voit ensuite « Acceptée » ou « Refusée ».
-[] Si la dernière place a été prise entre-temps, l’acceptation est bloquée et la demande reste « En attente ». L’organisateur peut la refuser.
-[] Une demande déjà traitée ne peut pas être traitée une deuxième fois.
+[ ] L’organisateur peut accepter ou refuser une demande « En attente » de sa propre sortie. Le membre voit ensuite « Acceptée » ou « Refusée ».
+[ ] Si la dernière place a été prise entre-temps, l’acceptation est bloquée et la demande reste « En attente ». L’organisateur peut la refuser.
+[ ] Une demande déjà traitée ne peut pas être traitée une deuxième fois.
 
 ## 9. Definition of Done 
 Une fonctionnalité est considérée comme terminée lorsque :  
@@ -133,9 +138,11 @@ Une fonctionnalité est considérée comme terminée lorsque :
 - Elle a été testée et les erreurs importantes ont été corrigées.
 - La documentation est mise à jour si nécessaire.
 
-- **US-02 :**	Préparer 3 fiches de lieux fictifs et détailler UC-02
-- **US-05 :**	Définir l’unité des prix (personne / groupe / nuit) et relier le programme à ses étapes dans l’ERD
-- **US-08 :**	Écrire UC-10 et vérifier la règle de capacité avec l’ERD
+## 10. Tâches d'analyse et de conception
+- **US-02 :** Préparer 3 fiches de lieux fictifs et détailler UC-02.
+- **US-05 :** Définir l'unité des prix (personne / groupe / nuit) et relier le programme à ses étapes dans l'ERD.
+- **US-07 :** Écrire UC-09 et dessiner le début du TO-BE.
+- **US-08 :** Écrire UC-10 et vérifier la règle de capacité avec l'ERD.
 
 ## 11. Ce qui sera fait pour la soumission 3
 
