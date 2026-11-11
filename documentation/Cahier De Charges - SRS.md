@@ -1,7 +1,7 @@
 # Cahier des charges (SRS léger) — <Turisty>
-**Équipe :** Avengers  
-**Date :** 2026-10-09 
-**Version :** v0.1
+**Équipe :** The Avengers  
+**Date :** 2026-11-11 
+**Version :** v0.2
 
 ---
 
@@ -9,9 +9,9 @@
 
 ## 1. Contexte et objectif
 
-- **Contexte :** Les touristes, les nouveaux arrivants et les étudiants peuvent avoir de la difficulté à trouver des activités adaptées à leurs préférences et à leur budget à Montréal. Les informations sont souvent dispersées sur plusieurs plateformes. Il peut également être difficile de rencontrer des personnes avec qui participer à ces activités.
+- **Contexte :** Les touristes, les nouveaux arrivants et les étudiants ont de la difficulté à trouver des activités adaptées à leurs préférences et à leur budget à Montréal. Les informations sont souvent dispersées sur plusieurs plateformes. Il peut également être difficile de rencontrer des personnes avec qui participer à ces activités.
 
-- **Objectif principal :** MTL Complice vise à regrouper des activités, des restaurants et des hébergements afin d’aider les utilisateurs à organiser un séjour ou une sortie à Montréal selon leur budget, leurs intérêts et la durée choisie.
+- **Objectif principal :** Turisty regroupe des activités, des restaurants et des hébergements afin d’aider les utilisateurs à organiser un séjour ou une sortie à Montréal selon leur budget, leurs intérêts et la durée choisie.
 
 - **Parties prenantes :** Les visiteurs, les membres inscrits, les organisateurs de sorties, les administrateurs de la plateforme et l’équipe responsable du projet.
 
@@ -22,16 +22,16 @@
 ### 2.1 Inclus (IN)
 
 - IN-1 : Consulter les activités, les restaurants et les hébergements.
-- IN-2 : Rechercher et filtrer les lieux selon le budget, la catégorie et les préférences.
+- IN-2 : Rechercher et filtrer les lieux selon le budget, la catégorie, les préférences et la tranche d'âge.
 - IN-3 : Créer un compte et se connecter.
 - IN-4 : Créer un programme personnalisé pour une durée de un à trois jours.
 - IN-5 : Calculer le coût estimé du programme et le budget restant.
 - IN-6 : Sauvegarder et modifier un programme.
 - IN-7 : Créer une sortie liée à une activité.
-- IN-8 : Demander à participer à une sortie.
+- IN-8 : Demander à participer à une sortie Le membre fait la demande et l'organisateur la traite (accepte ou refuse).
 - IN-9 : Signaler un contenu inapproprié.
 - IN-10 : Permettre à un administrateur de gérer les lieux, les utilisateurs et les signalements.
-- IN-11 : Crée un Chat de groupe pour les différentes sortie collectif
+- IN-11 : Crée un Chat de groupe pour chaque sortie. Il est limité seulement pour les personnes qui vont participer dans une sortie concrète.
 ### 2.2 Exclu (OUT)
 
 - OUT-1 : Effectuer des réservations et des paiements directement dans l’application.
@@ -47,7 +47,7 @@
 
 - **Visiteur :** consulte les activités, les restaurants et les hébergements sans avoir obligatoirement un compte.
 
-- **Membre inscrit :** crée un compte, indique ses préférences, génère un programme, sauvegarde ses choix et demande à participer à une sortie.
+- **Membre inscrit :** crée un compte, indique ses préférences, génère un programme, sauvegarde ses choix, créer et demander à participer dans une sortie.
 
 - **Organisateur :** crée une sortie, précise la date, l’heure et le nombre de places, puis accepte ou refuse les demandes de participation.
 
@@ -62,7 +62,12 @@
 - **FR-4 :** Le système doit permettre aux utilisateurs de créer un compte avec un mot de passe securisé et de se connecter.
 - **FR-5 :** Le système doit permettre aux membres de sauvegarder et de modifier leur programme.
 - **FR-6 :** Le système doit permettre aux membres de créer une sortie liée à une activité en précisant la date, l’heure et le nombre de places disponibles.
-- **FR-7 :** Le système doit permettre aux utilisateurs de signaler un contenu inapproprié.
+- **FR-7 :** Le système doit permettre à un membre autorisé à lire un message de le signaler.
+- **FR-8 :** Le système doit générer pour le membre un programme de 1 à 3 jours selon ses besoins, et afficher le coût estimé et le budget restant.
+- **FR-9 :** Un membre connecté doit pouvoir demander à rejoindre une sortie ouverte avec une place disponible. Une deuxième demande pour la même sortie est bloquée.
+- **FR-10 :** L’organisateur doit pouvoir accepter ou refuser les demandes de sa sortie. Le système revérifie la capacité au moment de l’acceptation.
+- **FR-11 :** L’organisateur et les membres acceptés doivent pouvoir lire et publier des messages dans le groupe de la sortie.
+- **FR-12 :** L’administrateur doit pouvoir gérer les lieux, les utilisateurs et les signalements.
 
 ---
 
