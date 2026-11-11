@@ -73,10 +73,10 @@
 
 ## 5. Exigences non fonctionnelles (NFR) 
 > Performance / sécurité / disponibilité / UX / maintenabilité…
-- **NFR-1 (Performance) :** Le système doit afficher les pages et les résultats de recherche dans un délai de 2 secondes.
-- **NFR-2 (Sécurité) :** Le système doit protéger les comptes des utilisateurs en utilisant des mots de passe sécurisés.
-- **NFR-3 (UX) :** Le système doit proposer une interface simple et facile à utiliser pour les administrateurs, les visiteurs et les membres.
-- **NFR-4 (Qualité) :** Le système doit fonctionner sur les navigateurs web courants, comme Google Chrome, Microsoft Edge et Firefox.
+- **NFR-1 (Performance) :** Le système doit afficher les pages et les résultats de recherche dans un délai de 2 secondes. _Vérification future : mesure avec le catalogue fictif, sur un réseau normal, avec Chrome._
+- **NFR-2 (Sécurité) :** Le système doit protéger les comptes des utilisateurs en utilisant des mots de passe sécurisés. _Vérification future : revoir la méthode de stockage lors de la conception._
+- **NFR-3 (UX) :** Le système doit proposer une interface simple et facile à utiliser pour les administrateurs, les visiteurs et les membres.  _Vérification future : demander à quelques personnes de faire un parcours simple (chercher un lieu, demander une place)._
+- **NFR-4 (Qualité) :** Le système doit fonctionner sur les navigateurs web courants, comme Google Chrome, Microsoft Edge et Firefox.  _Vérification future : tester les pages principales sur ces trois navigateurs._
 
 ---
 
