@@ -47,9 +47,9 @@
 
 - **Visiteur :** consulte les activités, les restaurants et les hébergements sans avoir obligatoirement un compte.
 
-- **Membre inscrit :** crée un compte, indique ses préférences, génère un programme, sauvegarde ses choix, crée une sortie et demande à participer à une sortie.
+- **Membre inscrit :** garde les droits du visiteur, indique ses préférences, génère un programme, sauvegarde ses choix, crée une sortie, demande à participer à une sortie et discute dans les groupes où il est accepté.
 
-- **Organisateur :** crée une sortie, précise la date, l'heure et le nombre de places, puis accepte ou refuse les demandes de participation.
+- **Organisateur :** membre inscrit qui a créé une sortie. Il précise la date, l'heure et le nombre de places, puis accepte ou refuse les demandes de participation.
 
 - **Administrateur :** gère les utilisateurs, les lieux, les activités et les contenus signalés.
 
@@ -87,9 +87,13 @@
 - **C-4 (Outils) :** L'équipe utilise GitHub pour le suivi de la documentation.
 
 ### Hypothèses
-- Un catalogue de lieux fictifs contient, pour chaque lieu, un prix estimé, son unité (par personne, par groupe ou par nuit) et une tranche d'âge recommandée. La tranche d'âge est un conseil, pas une interdiction.
+- Un catalogue de lieux fictifs contient, pour chaque lieu, un prix estimé, son unité (par personne, par groupe ou par nuit) et une tranche d'âge recommandée. La tranche d'âge souhaitée par le membre est comparée à la tranche d'âge recommandée des lieux. Ce n'est pas une interdiction.
+- Une API pourrait être une source de données plus tard, mais elle n'est pas nécessaire pour cette remise.
 - Une sortie est ouverte tant que sa date et son heure ne sont pas passées. Sa capacité exclut l'organisateur.
 - Seules les demandes acceptées comptent dans la capacité d'une sortie.
+- Une demande a trois statuts : « En attente », « Acceptée » et « Refusée ». Après un refus, le membre ne peut pas refaire une demande pour la même sortie.
+- Turisty ne propose pas de programme qui dépasse le budget du membre.
+- Correspondance avec le modèle de données : Lieu = Attraction, Membre = Compte, Programme = program, Étape = Etape. L'organisateur n'est pas un rôle stocké : c'est le membre qui a créé la sortie.
 
 ---
 
@@ -100,7 +104,7 @@
  *US-03 - Consulter les détails d’un lieu :* En tant que visiteur, je veux consulter les détails d’un lieu afin de connaître sa description, son adresse, son prix estimé et sa catégorie d’âge recommandée.  
   
 - **Epic 2** --> Planifier selon son budget.  
- *US-04 - Indiquer ses besoins :* En tant que membre, je veux indiquer mon budget, mes intérêts, la durée de mon séjour, le nombre de personnes et la catégorie d’âge afin d’obtenir un programme adapté.  
+ *US-04 - Indiquer ses besoins :* En tant que membre, je veux indiquer mon budget, mes intérêts, la durée de mon séjour, le nombre de personnes et la tranche d'âge souhaitée afin d'obtenir un programme adapté.  
  *US-05 - Générer un programme :* En tant que membre, je veux générer un programme personnalisé d’une durée de un à trois jours afin de mieux organiser mon séjour.  
   
 - **Epic 3** --> Organiser et rejoindre des sorties.  
@@ -108,13 +112,24 @@
  *US-07 - Demander à participer à une sortie :* En tant que membre, je veux demander à participer à une sortie afin de rencontrer d’autres personnes et de réaliser l’activité avec elles.  
  *US-08 - Gérer les demandes de participation :* En tant qu’organisateur, je veux accepter ou refuser les demandes afin de gérer les participants à ma sortie.  
 
+- Correspondance entre le backlog et les cas d'utilisation :
+
+- US-01 à US-04 → UC-01 à UC-04 (correspondance directe)
+- US-05 → UC-05 et UC-17
+- US-06 à US-08 → UC-06 à UC-08 (correspondance directe)
+- US-09 → UC-11
+- US-10 → UC-12
+- US-11 → UC-09 et UC-10
+- US-12 → UC-13
+- US-13 → UC-14, UC-15 et UC-16
+
 ---
 
 ## 8. Critères d’acceptation globaux
 - US-02 — Rechercher et filtrer
 [ ] Étant donné des lieux fictifs de catégories et de prix différents, quand le visiteur choisit « activité », une tranche d’âge et un budget maximal, alors tous les résultats respectent tous les filtres actifs.
 [ ] Si aucun lieu ne correspond, Turisty affiche un message de résultat vide clair.
-[ ] Si le budget saisi est négatif, Turisty demande de le corriger.
+[ ] Si le budget saisi est négatif ou non numérique, Turisty demande de le corriger.
 
 - US-05 — Générer un programme
 [ ] Étant donné une durée de 1 à 3 jours et assez de lieux compatibles, le membre obtient un programme pour la durée demandée, avec le coût total estimé et le budget restant.
@@ -140,9 +155,9 @@ Une fonctionnalité est considérée comme terminée lorsque :
 
 ## 10. Tâches d'analyse et de conception
 - **US-02 :** Préparer 3 fiches de lieux fictifs et détailler UC-02.
-- **US-05 :** Définir l'unité des prix (personne / groupe / nuit) et relier le programme à ses étapes dans l'ERD.
-- **US-07 :** Écrire UC-09 et dessiner le début du TO-BE.
-- **US-08 :** Écrire UC-10 et vérifier la règle de capacité avec l'ERD.
+- **US-05 :** Définir l'unité des prix (personne / groupe / nuit) et relier le programme à ses étapes dans l'ERD (UC-04, UC-05, UC-17).
+- **US-07 :** Écrire UC-07 et dessiner le début du TO-BE.
+- **US-08 :** Écrire UC-08 et vérifier la règle de capacité avec l'ERD.
 
 ## 11. Ce qui sera fait pour la soumission 3
 
