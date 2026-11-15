@@ -43,6 +43,7 @@ Ensemble, ils fournissent un cadre de documentation clair, professionnel et main
 ## Arborescence de la documentation
 - [cahier des charges SRS](documentation/SRS.md)
 - [Fiche de décision d’architecture ADR](documentation/ADR.md)
+-[Voir la soumission 2 — Turisty](./documentation/Soumission2.md)
 
 ## Tâches des étudiants
 - [ ] Compléter le fichier `student_readmefile.md`.
