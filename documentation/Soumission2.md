@@ -55,13 +55,13 @@ Le modèle relie les comptes aux programmes et aux sorties. Les étapes relient 
 
 ### Justification de la normalisation
 
-**Programmes, étapes et attractions.** Nous avons séparé `program`, `Etape` et `Attraction` parce que leurs données ne décrivent pas la même chose. Le budget et la durée appartiennent au programme, le numéro du jour appartient à l’étape, et le nom, l’adresse et le prix appartiennent au lieu. `Etape` contient les références `IdProgram` et `IdAttraction` au lieu de recopier les données de ces deux tables.
+**Programmes, étapes et attractions.** Nous avons séparé program, Etape et Attraction parce que leurs données ne décrivent pas la même chose. Le budget et la durée appartiennent au programme, le numéro du jour appartient à l’étape, et le nom, l’adresse et le prix appartiennent au lieu. Etape contient les références IdProgram et IdAttraction au lieu de recopier les données de ces deux tables.
 
-**Anomalie de mise à jour évitée.** Si le même lieu est prévu dans deux programmes, les deux étapes référencent le même `IdAttraction`. Si l’adresse du lieu change, nous la modifions une seule fois dans `Attraction`. Si elle était recopiée dans chaque étape, une ancienne adresse pourrait rester dans un programme. La séparation permet aussi d’ajouter un lieu au catalogue sans devoir créer un programme pour l’y placer.
+**Anomalie de mise à jour évitée.** Si le même lieu est prévu dans deux programmes, les deux étapes référencent le même IdAttraction. Si l’adresse du lieu change, nous la modifions une seule fois dans Attraction. Si elle était recopiée dans chaque étape, une ancienne adresse pourrait rester dans un programme. La séparation permet aussi d’ajouter un lieu au catalogue sans devoir créer un programme pour l’y placer.
 
-**Comptes, sorties et demandes.** Dans `Demande`, le statut concerne à la fois le compte et la sortie. En revanche, le courriel dépend seulement du compte, et la date et le nombre maximal de places dépendent seulement de la sortie. Ces informations restent donc dans `Compte` et `Sortie`. La clé composée (`IdSortie`, `IdCompte`) empêche un même compte d’avoir deux demandes pour la même sortie tout en permettant à plusieurs comptes de demander une place.
+**Comptes, sorties et demandes.** Dans Demande, le statut concerne à la fois le compte et la sortie. En revanche, le courriel dépend seulement du compte, et la date et le nombre maximal de places dépendent seulement de la sortie. Ces informations restent donc dans Compte et Sortie. La clé composée (IdSortie, IdCompte) empêche un même compte d’avoir deux demandes pour la même sortie tout en permettant à plusieurs comptes de demander une place.
 
-**Messages et signalements.** `Signalement` conserve la référence du message plutôt que de recopier son contenu. Le statut du signalement reste dans `Signalement`, car il décrit le traitement de ce signalement, pas le message lui-même.
+**Messages et signalements.** Signalement conserve la référence du message plutôt que de recopier son contenu. Le statut du signalement reste dans Signalement, car il décrit le traitement de ce signalement, pas le message lui-même.
 
 
 ## Rapport de progression
